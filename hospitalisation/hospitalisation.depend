@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1734120976 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\hospitalisation\hospitalisation.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	"hospitalisation.h"
+
+1734121140 c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\hospitalisation\hospitalisation.h
+
+1734107753 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\hospitalisation\menuhospitalisation.c
+	<stdio.h>
+	<stdlib.h>
+	"hospitalisation.h"
+	<time.h>
+
+1734121137 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\hospitalisation\main (2).c
+	<stdio.h>
+	<stdlib.h>
+	"hospitalisation.h"
+	<time.h>
+

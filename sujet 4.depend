@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1733740760 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\medecin.c
+	<stdio.h>
+	"medecin.h"
+	<string.h>
+	<ctype.h>
+
+1732800387 c:\users\extra\onedrive\bureau\sujet4\gestion des services\medecin.h
+
+1733686151 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\menumedecin.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"medecin.h"
+
+1733497278 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\menupatient.c
+	<stdio.h>
+	<stdlib.h>
+	"Patient.h"
+	<string.h>
+	<time.h>
+
+1733493977 c:\users\extra\onedrive\bureau\sujet4\gestion des services\patient.h
+
+1733587359 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\menuservice.c
+	<stdio.h>
+	<stdlib.h>
+	"Service.h"
+	<time.h>
+
+1732287779 c:\users\extra\onedrive\bureau\sujet4\gestion des services\service.h
+
+1733496828 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\patient.c
+	"Patient.h"
+	<stdio.h>
+	<string.h>
+
+1733053877 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\service.c
+	<stdio.h>
+	"Service.h"
+	<string.h>
+	<ctype.h>
+
+1733830789 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\medecin.c
+	<stdio.h>
+	"medecin.h"
+	<string.h>
+	<ctype.h>
+
+1732800387 c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\medecin.h
+
+1733763297 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\menumedecin.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"medecin.h"
+
+1733763022 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\menupatient.c
+	<stdio.h>
+	<stdlib.h>
+	"Patient.h"
+	<string.h>
+	<time.h>
+
+1733493977 c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\patient.h
+
+1733746378 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\menuservice.c
+	<stdio.h>
+	<stdlib.h>
+	"Service.h"
+	<time.h>
+
+1732287779 c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\service.h
+
+1733746357 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\patient.c
+	"Patient.h"
+	<stdio.h>
+	<string.h>
+
+1733761865 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\service.c
+	<stdio.h>
+	"Service.h"
+	<string.h>
+	<ctype.h>
+
+1733762789 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\sujet 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

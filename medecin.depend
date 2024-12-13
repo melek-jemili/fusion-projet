@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1733680801 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\medecin.c
+	<stdio.h>
+	"medecin.h"
+	<string.h>
+	<ctype.h>
+
+1732800387 c:\users\extra\onedrive\bureau\sujet4\gestion des services\medecin.h
+
+1733686151 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\menumedecin.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"medecin.h"
+

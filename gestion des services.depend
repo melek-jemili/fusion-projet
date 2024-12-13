@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1733587022 source:c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\gestion des services\gestion des services\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Service.h"
+	<time.h>
+
+1732287779 c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\gestion des services\gestion des services\service.h
+
+1733053877 source:c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\gestion des services\gestion des services\service.c
+	<stdio.h>
+	"Service.h"
+	<string.h>
+	<ctype.h>
+
+1733053877 source:c:\users\extra\onedrive\bureau\sujet4\gestion des services\service.c
+	<stdio.h>
+	"Service.h"
+	<string.h>
+	<ctype.h>
+
+1732287779 c:\users\extra\onedrive\bureau\sujet4\gestion des services\service.h
+

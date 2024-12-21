@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1734013411 source:c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\copie\gestion des services dynamique\service.c
+	"service.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1734013662 c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\copie\gestion des services dynamique\service.h
+
+1734013541 source:c:\users\extra\onedrive\bureau\gestion des patients dans un hôpital universitaire\copie\gestion des services dynamique\main.c
+	<stdio.h>
+	<stdlib.h>
+	"service.h"
+	<string.h>
+	<time.h>
+
+1734814400 source:c:\users\extra\onedrive\bureau\sujet4 dynamique\service.c
+	"service.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1734013662 c:\users\extra\onedrive\bureau\sujet4 dynamique\service.h
+
+1734811461 source:c:\users\extra\onedrive\bureau\sujet4 dynamique\menuservice.c
+	<stdio.h>
+	<stdlib.h>
+	"service.h"
+	<string.h>
+	<time.h>
+
+1734812511 source:c:\users\extra\onedrive\bureau\sujet4 dynamique\main.c
+	<stdio.h>
+	<stdlib.h>
+	"service.h"
+	<string.h>
+	<time.h>
+

@@ -74,31 +74,31 @@ int main()
 
 	while (1)
 
-	{   printf("\n****************************");
+	{   printf("\n************************************");
 
-        printf("\n************MENU************");
+        printf("\n************MENU MEDECIN************");
 
-        printf("\n****************************");
+        printf("\n************************************");
 
-        printf("\n 1.Ajouter un medcin");
+        printf("\n 1.Ajouter un medecin");
 
-        printf("\n 2.Rechercher un medcin");
+        printf("\n 2.Rechercher un medecin");
 
-        printf("\n 3.Modifier un medcin");
+        printf("\n 3.Modifier un medecin");
 
-        printf("\n 4.Supprimer un medcin");
+        printf("\n 4.Supprimer un medecin");
 
-        printf("\n 5.Afficher liste medcin");
+        printf("\n 5.Afficher liste medecin");
 
         printf("\n 0.Quitter");
 
-        printf("\n*******************************");
+        printf("\n*************************************");
 
         printf("\n %d/%d/%d\t\t %d:%d",instant.tm_mday,instant.tm_mon+1,instant.tm_year+1900,instant.tm_hour,instant.tm_min);
 
-        printf("\n*******************************");
+        printf("\n*************************************");
 
-        printf("\n Introduire votre choix: ");
+        printf("\n Introduire votre choix:");
 
         scanf("%d",&choix);
 
@@ -128,7 +128,7 @@ int main()
 
         case 2:
 
-            {   printf("\n introduire l'identifiant e chercher:");
+            {   printf("\n introduire l'identifiant à chercher:");
 
                 scanf("%d",&id);
 
@@ -188,6 +188,33 @@ int main()
 
             {
 
+                printf("\n introduire l'identifiant à supprimer:");
+
+                scanf("%d",&id);
+
+                rech=rechercher_med(Liste_m,id);
+
+                if (rech==NULL){
+
+                printf("\n identifiant inexistant");
+
+                }
+
+                else{
+
+                    affiche_med(*rech);
+
+                    printf("\n Vous etes sure de vouloire supprimer ce medcin? oui/non:");
+
+                    scanf("%s",rep);
+
+                    if (strcmp(rep,"oui")==0){
+
+                        supprime_med(Liste_m,id);}
+
+
+
+                }
                 break;}
 
 

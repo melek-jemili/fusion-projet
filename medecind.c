@@ -7,40 +7,36 @@
 #include <string.h>
 
 
-
-extern med tableau_etd[100];
-
-extern int taille_tab;
-
+extern Liste Liste_m;
 
 
 med saisir_med(){
 
 	med m;
 
-	//int i;
+	int i;
 
-	//int rech;
+	med* rech;
 
-    /*do
+    do
 
 	{printf("\n introduire l'identifiant : ");
 
-	scanf("%d",&etd.identifiant);
+	scanf("%d",&m.identifiant);
 
-    rech=recherche_etd(tableau_etd,taille_tab,etd.identifiant);
+    rech=rechercher_med(Liste_m,med.identifiant);
 
-    if (rech!=-1){
+    if (rech!=NULL){
 
         printf("\n Identifiant existe d%cje!!\n",130);
 
     }
 
-	}while(rech!=-1);*/
+	}while(rech!=NULL);
 
-    printf("\n introduire l'identifiant : ");
 
-	scanf("%d",&m.identifiant);
+
+
 
 	printf("\n introduire le nom: ");
 
@@ -349,7 +345,26 @@ med* rechercher_med(Liste Lst, int ident)
 
 
 
+void supprime_med(Liste l, int ident)
 
+{
+ struct cellule *pred=NULL, *cour=l;
+ while (cour)
+ {
+    if(cour->valeur.identifiant==ident) break ;
+    pred = cour;
+    cour = cour->suivant;
+ }
+ if (cour)
+ {
+    if (pred) {
+            pred->suivant = cour->suivant;}
+    else
+    {l = l->suivant ;}
+    free(cour);
+ }
+
+ }
 
 
 

@@ -57,7 +57,7 @@ void affiche_Liste_med(Liste Lst);
 
 med* rechercher_med(Liste Lst, int ident);
 
-
+void supprime_med(Liste l, int ident);
 
 
 
